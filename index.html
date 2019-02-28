@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Budget</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>Budget app</h1>
+    </header>
+    <main>
+      <div class="balance">
+        <h2>Total Balance</h2>
+        &#36;<span id="balance">0</span>
+      </div>
+      <div class="budget">
+        <h2>Budget</h2>
+        &#36;<span id="budget">0</span>
+        <hr>
+        <p>Enter your budget</p>
+        <input type="number" id="budget-form">
+        <button type="button" onclick="calculate()" value="submit">Calculate</button>
+      </div>
+      <div class="expenses">
+        <h2>Expenses</h2>
+        &#36;<span id="expenses">0</span>
+        <hr>
+        <p>Enter your Expense</p>
+        <input type="text" id="expense-name">
+        <p>Enter your Expense amount</p>
+        <input type="number" id="expense-price">
+        <button type="button" onclick="addExpense()" value="submit">Add Expense</button>
+      </div>
+      <div class="expenses-list"></div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

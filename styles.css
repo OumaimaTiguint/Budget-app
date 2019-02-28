@@ -1,0 +1,74 @@
+body {
+    background-color: #04284a;
+    color: white;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+  
+h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+}
+  
+.balance {
+    background-color: #04284a;
+    text-align: center;
+    padding: 35px;
+    font-size: 25px;
+}
+  
+.budget {
+    background-color: #ff6b68;
+    width: 30%;
+    float: left;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 240px;
+    height: 335px;
+    margin-bottom: 20px;
+}
+  
+.expenses {
+    background-color: #5f9ea0;
+    width: 30%;
+    float: right;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 240px;
+    margin-bottom: 20px;
+}
+  
+button {
+    display: block;
+    background-color: #04284a;
+    color: white;
+    font-family: "Arial Black", Gadget, sans-serif;
+    padding: 15px 32px;
+    margin: 10px;
+    font-size: 14px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 0 9px #333333;
+}
+  
+.expenses > button:hover {background-color: #5f9ea0}
+  
+.budget > button:hover {background-color: #ff6b68}
+  
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.expenses-list {
+    text-align: center;
+    padding: 10px;
+}
+  
+  
